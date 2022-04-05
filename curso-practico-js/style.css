@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    background-image: url(./assets/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+header img{
+    width: 12rem;
+    margin-right: 3rem;
+}
+header h1{
+    font-size: 6rem;
+    color: rgb(6, 152, 219);
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+main .card{
+    width: 40rem;
+    margin: 5rem;
+    border: 1px solid black;
+    padding: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke ;
+}
+main .card h2{
+    font-size:2.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+main .card form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+form label{
+    font-size:1.6rem;
+    margin-top: 1rem;
+}
+form input{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+form button{
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border: 2px solid rgb(6, 152, 219);
+    background-color: white;
+    color: rgb(6, 152, 219);
+}
+form button:hover{
+    background-color: rgb(6, 152, 219);
+    border: 2px solid white;
+    color: white;
+}
