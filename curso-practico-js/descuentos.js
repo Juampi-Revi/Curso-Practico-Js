@@ -96,8 +96,10 @@ function generarTabla(){
     const numerosTabla = document.getElementById("numeroTabla");
     const tablaValue = numerosTabla.value;
     const imprimir2 = document.getElementById("resultado");
+    let multiplicar = 0;
     for (var i =0; i <= 10; i++ ){
-        const multiplicar = tablaValue * i;
-        imprimir2.innerHTML = tablaValue + " X " + i + " = " + multiplicar;
+        multiplicar = tablaValue * i;
+        imprimir2.innerText = "Ver resultado en consola";
+        console.log(tablaValue + " X " + i + " = " + multiplicar);
     }
 }
