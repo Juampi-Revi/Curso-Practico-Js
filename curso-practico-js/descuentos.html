@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Porcentajes y descuentos | Curso Js |</title>
+        <link rel="stylesheet" href="./descuentos.css">
+    </head>
+    <body>
+        <header>
+            <img src="https://img.freepik.com/vector-gratis/icono-tienda-construccion_8499-105.jpg" alt="">
+            <h1>Porcentajes y descuentos</h1>
+        </header>
+        <main>
+            <section class="contenedor-form">
+                <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+                <form action="">
+                    <label for="inputPrice">
+                        Escribe el precio de tu producto
+                    </label>
+                    <input type="number" id="inputPrice" placeholder="Precio"/>
+                    <label for="inputDiscount">
+                        Escribe el % descuento de tu producto
+                    </label>
+                    <input type="number" id="inputDiscount" placeholder="Descuento"/>
+                    <button type="button" onclick="calculoPrecioConDescuento()">
+                        Calcular el precio con descuento
+                    </button>
+                    <section class="resultado">
+                        <h3>Resultado</h3>
+                        <p id="resultPrice"></p>
+                    </section>
+                </form>
+            </section>
+            <section class="contenedor-form">
+                <h2>Calcula el precio a pagar de tus productos con descuentos</h2>
+                <form action="">
+                    <label for="inputPrice2">
+                        Escribe el precio de tu producto
+                    </label>
+                    <input type="number" id="inputPrice2" placeholder="Precio"/>
+                    <label for="inputCupon">
+                        Escribe el codigo de tu cupon de descuento 
+                    </label>
+                    <input type="text" id="inputCupon" placeholder="Cupon de descuento"/>
+                    <button type="button" onclick="calculoPrecioConDescuento2()">
+                        Calcular el precio con descuento
+                    </button>
+                    <section class="resultado">
+                        <h3>Resultado</h3>
+                        <p id="resultPrice2"></p>
+                    </section>
+                </form>
+            </section>
+            <section class="contenedor-form">
+                <h2>Aqui podras hacer tus tablas</h2>
+                <form action="">
+                    <label for="numeroTabla">
+                        Escribe aqui la tabla de que numero necesitas:
+                    </label>
+                    <input type="number" id="numeroTabla" placeholder="Tabla de:"/>
+                    <button type="button" onclick="generarTabla()">
+                        Generar tabla
+                    </button>
+                    <section class="resultado">
+                        <h3>Resultado</h3>
+                        <p id="resultado"></p>
+                    </section>
+                </form>
+            </section>
+        </main>
+        <script src="./descuentos.js"></script>
+    </body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:62.5%;
+    font-family:monospace;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+header img{
+    width: 20rem;
+}
+header h1 {
+    font-size: 5rem;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap: wrap;
+    background-image: url("./assets/fondo2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    border: 1px solid gray;
+    padding:2rem;
+    border-radius: 2rem;
+}
+section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section h2{
+    font-size:2.2rem;
+    text-align:center;
+    margin-top:2rem;
+}
+form label {
+    margin-top: 2rem;
+    font-size:1.8rem;
+}
+form input{ 
+    width: 70%;
+    padding: 0.5rem;
+}
+form button{
+    margin-top: 4rem;
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1.8rem;
+}
+form .resultado{
+    width: 70%;
+    height: 12rem;
+    margin-bottom: 3rem;
+}
+.resultado h3{
+    font-size:2rem;
+    text-align: center;
+}
+.resultado p{
+    margin-top: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}

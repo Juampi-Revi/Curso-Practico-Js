@@ -114,3 +114,22 @@ function calcularAreaCirculo(){
     const area = areaCirculo (value);
     alert (area); 
 }
+
+/*function alturaTrianguloIsoceles (a, b, base){
+    if (a === b){
+        var formula = (a*a - ((b*b)/4)); 
+        var altura = Math.sqrt (formula);
+        console.log(altura);
+    } else {
+        alert("el triangulo no es isoceles");
+    };
+};
+*/
+function alturaTrianguloIsoceles (a, b, base){
+    if (a === b){
+        var altura = Math.sqrt ((a*a - ((b*b)/4)));
+        console.log(altura);
+    } else {
+        alert("el triangulo no es isoceles");
+    };
+};
